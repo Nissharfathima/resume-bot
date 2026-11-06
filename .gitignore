@@ -1,0 +1,16 @@
+# Secrets — never commit API keys
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Streamlit local secrets
+.streamlit/secrets.toml

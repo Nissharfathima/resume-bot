@@ -1,0 +1,17 @@
+# Backend: the web API and the server that runs it
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# LLM: the OpenAI-compatible client (works with Gemini, OpenAI and Claude)
+openai>=1.50
+
+# Reads settings and secrets from the .env file
+python-dotenv>=1.0
+
+# Text extraction from resume files
+python-docx>=1.1
+pypdf>=5.0
+
+# Frontend: the chat page, and HTTP calls to the backend
+streamlit>=1.40
+requests>=2.32
